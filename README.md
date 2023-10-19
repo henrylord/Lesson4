@@ -1,0 +1,4 @@
+- open Command Prompt
+- Find the local directory of the java program (C:\Users\hhong\IdeaProjects\test1\src\main\java\org\example>)
+- Compile the Java program with command: Javac filename.java 
+- Run the program with command: Java filename.java
