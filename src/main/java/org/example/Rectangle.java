@@ -24,4 +24,15 @@ public class Rectangle {
         a = height*width;
         return a;
     }
+
+    public int rectangleCompare(double width1,double height1,double width2,double height2){
+
+        double area1 = width1 * height1;
+
+        double area2 = width2 * height2;
+
+        if (area1 > area2){return 1;}
+        else if (area1 < area2){return 2;}
+        else {return 0;}
+    }
 }

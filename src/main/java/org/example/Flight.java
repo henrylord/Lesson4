@@ -1,6 +1,9 @@
 package org.example;
 
+
+
 public class Flight {
+
 
     private String flightNumber = "AC103";
     private String destination = "China";
@@ -12,7 +15,6 @@ public class Flight {
         System.out.println("Flight #: "+ this.flightNumber);
         System.out.println("Flight Destination: "+ this.destination);
         System.out.println("Fight Departure Time: "+ this.departureTime);
-
     }
 
 }

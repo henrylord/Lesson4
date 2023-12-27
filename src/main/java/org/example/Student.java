@@ -1,10 +1,15 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Student {
 
         String name;
         int age;
         String course;
+        ArrayList<Double> score = new ArrayList<Double>();
+        double averageScore;
+        private double totalScore =0;
 
         public void studentUpdate(String name, int age, String course){
 
@@ -21,4 +26,18 @@ public class Student {
             System.out.println("Student Course: "+ this.course);
         }
 
+        public void addScore(double score){
+
+            this.score.add(score);
+        }
+
+        public double averageScore(){
+
+            for (double i: score){
+
+                totalScore +=i;
+            }
+            return averageScore = totalScore/score.size();
+        }
 }
+

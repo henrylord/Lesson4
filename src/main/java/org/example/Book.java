@@ -30,4 +30,16 @@ public class Book {
     public void setYearOfPublication(int yearOfPublication) {
         this.yearOfPublication = yearOfPublication;
     }
+
+
+    public void compareBook(String firstBookTitle, String secondBookTitle){
+
+        if (firstBookTitle.equals(secondBookTitle)){
+            System.out.println("They are same.");
+        }
+        else{
+            System.out.println("They are different.");
+        }
+
+    }
 }
