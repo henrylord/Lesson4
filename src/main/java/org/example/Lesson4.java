@@ -44,6 +44,18 @@ public class Lesson4 {
 
 // 5. **Understanding Object References:** Demonstrate with code how Java passes objects to methods by reference, not by value.
 
+    //PLease see class PassByReference and PassByValue
+
+
+
+
+//### 4. Returning Objects
+//1. **Method Returning an Object:** Write a method that creates and returns a new object of a class.
+
+
+
+
+
 
 
 
