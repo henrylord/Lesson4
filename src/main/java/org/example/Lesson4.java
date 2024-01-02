@@ -52,8 +52,14 @@ public class Lesson4 {
 //### 4. Returning Objects
 //1. **Method Returning an Object:** Write a method that creates and returns a new object of a class.
 
+    // PLease see Box class method Box createAndReturnObjects ()
 
 
+//2. **Chain of Methods Returning Objects:** Create a series of methods where each method returns an object that is used by the next method.
+
+    // PLease see class Triangle
+
+//3. **Object Creation Utility Method:** Develop a utility method that takes parameters and returns a new object based on those parameters.
 
 
 

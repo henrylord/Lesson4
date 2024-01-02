@@ -60,6 +60,15 @@ public class Box {
         return num;
     }
 
+
+    public Box createAndReturnObjects (){
+
+        Box obj1 = new Box();
+
+        return obj1;
+
+    }
+
     public static void main(String[] args) {
 
         // Box myObj = new Box();
